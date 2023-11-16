@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #61dafb; /* Light blue accent */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9be9fd; /* Lighter blue on hover */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #20232a; /* Slightly lighter dark shade for navbar */
+    padding: 1rem;
+  }
+  
+  .navbar a {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #61dafb; /* Light blue background on hover */
+    color: #20232a; /* Dark text on hover for contrast */
+  }
+  
+  /* Dashboard Styles */
+  .Dashboard {
+    padding: 2rem;
+  }
+  
+  /* Chart Styles */
+  .MarketOverviewChart {
+    background-color: #242c37; /* Darker background for chart area */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Token List Styles */
+  .TokenList {
+    background-color: #242c37; /* Consistent dark background for token list */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .Token {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333; /* Slightly lighter border for separation */
+  }
+  
+  .Token:last-child {
+    border-bottom: none;
+  }
+  
+  .Token span {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  /* Add other component styles as needed */
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar a {
+      margin-bottom: 0.5rem; /* Stack navbar links for smaller screens */
+    }
+  }
+  

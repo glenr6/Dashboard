@@ -1,0 +1,8 @@
+app.py: The main server file to run the Flask application.
+models.py: Defines the database schema using ORM models.
+services.py: Contains the business logic and interactions with external APIs.
+controllers.py: Handles the requests, calls the appropriate services, and returns responses.
+utils.py: Provides utility functions and helpers for common tasks.
+routes.py: Maps URLs to controller functions and defines the endpoints of your API.
+
+To do: refine each component, add detailed functionality, integrate with databases and APIs, and implement security and error handling.
